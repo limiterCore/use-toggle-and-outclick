@@ -1,0 +1,21 @@
+{
+  "name": "use-toggle-and-outclick",
+  "repository": "https://github.com/limiterCore/use-toggle-and-out-click",
+  "version": "1.0.0",
+  "description": "React hook for controlling the state of any dropdowns that need an outclick for closing",
+  "keywords": [
+    "react",
+    "hooks",
+    "dropdown",
+    "outclick"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests specified\""
+  },
+  "author": "Innokentii Saraev <6319432@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0-alpha.0"
+  }
+}
