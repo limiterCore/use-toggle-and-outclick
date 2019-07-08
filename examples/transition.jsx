@@ -1,8 +1,8 @@
 import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 
-// Hooks
-import useToggleAndOutClick from 'hooks/useToggleAndOutClick';
+// Hook
+import useToggleAndOutClick from 'use-toggle-and-outclick';
 
 const ExampleControl = () => {
   const [isDropOpened, dropRef, toggleDrop, closeExplicitly] = useToggleAndOutClick();

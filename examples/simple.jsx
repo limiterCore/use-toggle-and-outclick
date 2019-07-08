@@ -1,7 +1,7 @@
 import React from 'react';
 
-// Hooks
-import useToggleAndOutClick from 'hooks/useToggleAndOutClick';
+// Hook
+import useToggleAndOutClick from 'use-toggle-and-outclick';
 
 const ExampleControl = () => {
   const [isDropOpened, dropRef, toggleDrop, closeExplicitly] = useToggleAndOutClick();
