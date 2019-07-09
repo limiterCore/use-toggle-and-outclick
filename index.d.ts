@@ -1,1 +1,1 @@
-export default function useToggleAndOutClick(): [boolean, HTMLElement, () => void, () => void];
+export default function useToggleAndOutClick<T>(): [boolean, {current: T}, () => void, () => void];

@@ -30,3 +30,4 @@ const ExampleControl = () => {
 
 - [Simle example](https://github.com/limiterCore/use-toggle-and-out-click/tree/master/examples/simple.jsx)
 - [CSS transition](https://github.com/limiterCore/use-toggle-and-out-click/tree/master/examples/transition.jsx)
+- [with TypeScript](https://github.com/limiterCore/use-toggle-and-out-click/tree/master/examples/typescript.tsx)
