@@ -9,13 +9,20 @@
     "dropdown",
     "outclick"
   ],
-  "main": "index.js",
+  "main": "dist.js",
   "scripts": {
-    "test": "echo \"no tests specified\""
+    "test": "echo \"no tests specified\"",
+    "build": "babel index.js -o dist.js"
   },
   "author": "Innokentii Saraev <6319432@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0"
   }
 }
